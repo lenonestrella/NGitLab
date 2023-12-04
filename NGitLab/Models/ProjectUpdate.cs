@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace NGitLab.Models
 {
-    public sealed class ProjectUpdate
+    public class ProjectUpdate
     {
         [JsonPropertyName("name")]
         public string Name { get; set; }
